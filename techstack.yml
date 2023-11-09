@@ -1,0 +1,474 @@
+repo_name: ashleanichols/Framer
+report_id: 930d97c1dbac90f99be62f09665a70a4
+repo_type: Public
+timestamp: '2023-11-09T16:57:30+00:00'
+requested_by: koenbok
+provider: github
+branch: master
+detected_tools_count: 34
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: CoffeeScript
+  description: A little language that compiles into JavaScript
+  website_url: http://coffeescript.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  version: 2.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2015-04-02 09:56:48.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2013-02-26 13:30:41.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-13 23:21:35.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-21 23:12:11.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  version: 2.1.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-21 23:12:11.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 1.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2016-01-23 15:48:48.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.8.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-13 23:09:58.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2013-02-26 13:30:41.000000000 Z
+- name: wercker
+  description: Build, test, and deploy container-native applications
+  website_url: http://wercker.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/897/S67KcxKE.png
+  detection_source: wercker.yml
+  last_updated_by: Eelco Lempsink
+  last_updated_on: 2016-06-10 12:08:47.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.14.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2016-08-01 14:40:35.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2016-08-01 14:40:35.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in async
+    cve_id: CVE-2021-43138
+    cve_url: https://github.com/advisories/GHSA-fwr7-v2mv-hh25
+    detected_date: Apr 13
+    severity: high
+    first_patched: 2.6.4
+- name: coffee-coverage
+  description: Istanbul and JSCoverage-style instrumentation for CoffeeScript files
+  package_url: https://www.npmjs.com/coffee-coverage
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17021/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-13 21:35:05.000000000 Z
+- name: coffee-loader
+  description: Coffee loader module for webpack
+  package_url: https://www.npmjs.com/coffee-loader
+  version: 0.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16987/default_32f63a11ae9faad5eff3053ff1a1600fde8a525b.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-20 17:54:44.000000000 Z
+- name: coffee-script
+  description: Unfancy JavaScript
+  package_url: https://www.npmjs.com/coffee-script
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15920/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: extras/resources.framerjs.com2/package.json
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2016-09-26 12:31:37.000000000 Z
+- name: es6-promise
+  description: A lightweight library that provides tools for organizing asynchronous
+    code
+  package_url: https://www.npmjs.com/es6-promise
+  version: 4.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16051/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-09-07 16:42:20.000000000 Z
+- name: eventemitter3
+  description: EventEmitter3 focuses on performance while maintaining a Node.js AND
+    browser compatible interface
+  package_url: https://www.npmjs.com/eventemitter3
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16574/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2016-01-23 15:48:48.000000000 Z
+- name: gulp-coffeelint
+  description: Lint your CoffeeScript using gulp and CoffeeLint
+  package_url: https://www.npmjs.com/gulp-coffeelint
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17339/default_2613a99266d0023b6108b16e4d6613c439a64039.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-13 23:09:58.000000000 Z
+- name: gulp-mocha-phantomjs
+  description: Run client-side Mocha tests with PhantomJS
+  package_url: https://www.npmjs.com/gulp-mocha-phantomjs
+  version: 0.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17896/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-21 23:12:11.000000000 Z
+- name: gulp-plumber
+  description: Prevent pipe breaking caused by errors from gulp plugins
+  package_url: https://www.npmjs.com/gulp-plumber
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16033/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-13 23:09:58.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-13 23:09:58.000000000 Z
+- name: gulp-template
+  description: Render/precompile Lodash/Underscore templates
+  package_url: https://www.npmjs.com/gulp-template
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16872/default_21db97bdb9f4092d80f256d3afec4658fbafe443.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-13 23:09:58.000000000 Z
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  version: 3.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-13 23:09:58.000000000 Z
+- name: knox
+  description: Amazon S3 client
+  package_url: https://www.npmjs.com/knox
+  version: 0.9.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18030/image.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2015-04-02 09:56:48.000000000 Z
+- name: mime
+  description: A comprehensive library for mime-type mapping
+  package_url: https://www.npmjs.com/mime
+  version: 1.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2015-04-02 09:56:48.000000000 Z
+  vulnerabilities:
+  - name: mime Regular Expression Denial of Service when MIME lookup performed on
+      untrusted user input
+    cve_id: CVE-2017-16138
+    cve_url: https://github.com/advisories/GHSA-wrvr-8mpx-r7pp
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.1
+- name: mocha-phantomjs
+  description: Run mocha browser tests in phantomjs via the command line
+  package_url: https://www.npmjs.com/mocha-phantomjs
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16868/default_143d92b1fc944107cf48a3ab42a2a347bf3d91b5.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-21 23:12:11.000000000 Z
+- name: webfontloader
+  description: Web Font Loader gives you added control when using linked fonts via
+    @font-face
+  package_url: https://www.npmjs.com/webfontloader
+  version: 1.6.28
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18680/default_796854034d0fb722b81b1d885cb3ab88a613d5fb.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Niels van Hoorn
+  last_updated_on: 2017-07-20 17:54:44.000000000 Z
+- name: webpack-dev-server
+  description: Serves a webpack app. Updates the browser on changes
+  package_url: https://www.npmjs.com/webpack-dev-server
+  version: 1.14.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15821/default_64690bc3e49bcee57094e51a7a26c620c48dbd82.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2016-01-23 15:48:48.000000000 Z
+  vulnerabilities:
+  - name: Missing Origin Validation in webpack-dev-server
+    cve_id: CVE-2018-14732
+    cve_url: https://github.com/advisories/GHSA-cf66-xwfp-gvc4
+    detected_date: Aug 22
+    severity: high
+    first_patched: 3.1.11
+- name: webpack-stream
+  description: Run webpack as a stream
+  package_url: https://www.npmjs.com/webpack-stream
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16467/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Koen Bok
+  last_updated_on: 2016-01-23 15:48:48.000000000 Z
